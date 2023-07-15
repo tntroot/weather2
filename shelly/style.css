@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #DDEDEC;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+}
+.container .container_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container .container_flex .content {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem;
+}
+.container .container_flex .content h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.container .container_flex .content i {
+  font-size: 5rem;
+}
+.container .container_flex .content .loca_weather {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.container .container_flex .content .loca_weather h1, .container .container_flex .content .loca_weather p {
+  margin-right: 1rem;
+}
+.container .container_flex .content span {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.select {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+.select .select-type {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 3rem 1;
+  font-size: 3rem;
+  height: 10vh;
+  text-align: center;
+  cursor: pointer;
+}
+.select .select-type:hover {
+  scale: 1.1;
+}/*# sourceMappingURL=style.css.map */

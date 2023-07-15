@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shelly/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="onlong(1)">
+    <object data="./img/tw.svg" width="50%" height="100%"></object>
+
+    <div id="container" class="container">
+        <div class="container_flex">
+            <div class="content">
+                <div>
+                    <div class="loca_weather">
+                        <h1 id="County">台北</h1>  
+                        <p id="weather">晴時多雲</p>
+                    </div> 
+                    <span id="CF">18-24℃</span>
+                </div>
+                <i id="weather_new" class="fa-solid fa-cloud-sun fa-2xl"></i>
+            </div>
+            <div class="content">
+                <div>
+                    <div class="loca_weather">
+                        <h1 id="County">台北</h1>  
+                        <p id="weather">晴時多雲</p>
+                    </div> 
+                    <span id="CF">18-24℃</span>
+                </div>
+                <i id="weather_new" class="fa-solid fa-cloud-sun fa-2xl"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="select">
+        <select class="select-type" name="" id="" onchange="onlong(+this.value)">
+            <option value="0">縣</option>
+            <option value="1">市</option>
+            <option value="2">離島</option>
+        </select>
+    </div>
+    
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
