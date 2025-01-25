@@ -3,7 +3,7 @@ let metlList=[];
 let tw=[],out_si=[],Municipal_new=[],Municipal=["金門縣","連江縣","澎湖縣"];
 
 function onlong(thisValue){
-    fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-8F61116C-E1C0-482C-BEED-06AC6294E383&elementName=")
+    fetch("https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-C0032-005?Authorization=CWB-8F61116C-E1C0-482C-BEED-06AC6294E383&downloadType=WEB&format=JSON")
         .then(res => res.json())
         .then(data => {
             tw=[];out_si=[];Municipal_new=[];
